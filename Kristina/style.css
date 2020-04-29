@@ -1,0 +1,90 @@
+.card{  
+    margin: 25px auto;
+    position: relative;
+    width: 367px;
+    height: 413px; 
+    border: grey;    
+  }
+
+.imageArea{
+    position: absolute;
+    width: 367px;
+    height: 179px;
+    left: 0px;
+    top: 0px;
+    background-image: url(1.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.label{
+    position: absolute;
+    height: 20px;
+    left: 92px;
+    right: 12px;
+    top: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #FFFFFF;
+  }
+
+.avatar{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 12px;
+    top: 12px;
+    background-image: url(2.png);
+    border-color: white;
+    border-radius: 10%;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.25); 
+    background-size: cover;
+        
+    
+}
+.coverImage{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 234px;
+    border-radius: 12px;
+}
+.progressBar{
+    height:40px;
+    width: 40px;
+    
+
+}
+.title{
+    position: absolute;
+    height: 52px;
+    left: 16px;
+    right: 16px;
+    bottom: 166px;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;    
+    color: #212121;
+
+
+}
+.labelOfProgressBar{
+    position: absolute;
+    height: 12px;
+    left: 16px;
+    right: 124px;
+    bottom: 76px;
+    background: linear-gradient(90deg, #4CE77B 0%, #73F49A 100%);
+    border-radius: 100px;
+
+}
+.actionArea{
+    position: absolute;;
+}
